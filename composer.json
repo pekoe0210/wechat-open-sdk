@@ -1,0 +1,26 @@
+{
+    "name": "wechat/open-sdk",
+    "description": "微信第三方平台sdk",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "gongyuanyi",
+            "email": "pekoe_0210@sina.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Wechat\\OpenSDK\\": "src/"
+        }
+    },
+    "require": {
+        "topthink/framework": "5.1.*"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": ""
+        }
+    ]
+}
